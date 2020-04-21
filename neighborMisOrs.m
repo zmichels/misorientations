@@ -6,7 +6,7 @@ function [misXTAL,misSPEC] = neighborMisOrs(ebsd)
 A_D = I_FD.' * I_FD;
 
 % order
-n = 1;
+n = 2;
 
 A_D1 = A_D;
 for i = 1:n-1  
